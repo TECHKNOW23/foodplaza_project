@@ -1,0 +1,73 @@
+# Git ignore for React and Spring Boot
+
+# Node.js / React
+node_modules/
+build/
+dist/
+.env
+.npmrc
+yarn.lock
+package-lock.json
+public/static/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor and OS Files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Spring Boot / Java
+**/target/
+**/bin/
+**/out/
+*.jar
+*.war
+*.ear
+*.class
+*.iml
+.mvn/
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Logs and temp files
+hs_err_pid*
+*.log
+
+# Security
+secrets.env
+application.properties
+application.yml
+
+# Others
+npm-debug.log
+yarn-debug.log
+yarn-error.log
